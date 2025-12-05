@@ -22,7 +22,7 @@
 
     <groupId>org.apache.rocketmq</groupId>
     <artifactId>rocketmq-a2a</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.5</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

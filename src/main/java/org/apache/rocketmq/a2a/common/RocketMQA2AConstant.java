@@ -22,6 +22,7 @@ public class RocketMQA2AConstant {
     public static final String ROCKETMQ_PROTOCOL = "RocketMQ";
     public static final String MESSAGE_RESPONSE_ID = "messageResponseId";
     public static final String LITE_TOPIC = "LITE_TOPIC";
+    public static final String CLOSE_LITE_TOPIC = "CLOSE_LITE_TOPIC";
     public static final String DEFAULT_STREAM_RECOVER = "default";
     public static final String DATA_PREFIX = "data:";
     public static final String METHOD = "method";

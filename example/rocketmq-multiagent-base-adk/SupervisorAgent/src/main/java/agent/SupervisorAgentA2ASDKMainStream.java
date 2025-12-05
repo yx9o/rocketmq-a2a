@@ -102,7 +102,7 @@ public class SupervisorAgentA2ASDKMainStream {
         initAgentCardInfo(ACCESS_KEY, SECRET_KEY, WEATHER_AGENT_NAME, WEATHER_AGENT_URL);
         initAgentCardInfo(ACCESS_KEY, SECRET_KEY, TRAVEL_AGENT_NAME, TRAVEL_AGENT_URL);
         printSystemInfo("💡 输入 'quit' 退出，输入 'help' 查看帮助");
-        try (Scanner scanner = new Scanner(System.in, StandardCharsets.UTF_8)) {
+        try (Scanner scanner = new Scanner(System.in, String.valueOf(StandardCharsets.UTF_8))) {
             while (true) {
                 printPrompt(YOU);
                 String userInput = scanner.nextLine().trim();
